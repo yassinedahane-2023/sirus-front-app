@@ -60,7 +60,7 @@ function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'http://ec2-54-173-232-204.compute-1.amazonaws.com:8080/auth',
+        url: 'https://siruskeycloackapp.net/auth',
         realm:"Demo-Auth",
         clientId:"Dashboard-App"
       },
